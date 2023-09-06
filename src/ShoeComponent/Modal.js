@@ -15,7 +15,7 @@ export default class Modal extends Component {
       <div
         id="modalContainer"
         onClick={handleClickOutSide}
-        className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm"
+        className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm duration-300"
       >
         <div className=" w-[500px] relative flex flex-col items-center gap-5 p-10 bg-white rounded-lg shadow-sm">
           <button

@@ -64,7 +64,7 @@ export default class ShoeComponent extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="container mx-auto">
         <div className="grid items-start grid-cols-2">
           <CartShoe
             handleChangeQuantity={this.handleChangeQuantity}
@@ -77,7 +77,6 @@ export default class ShoeComponent extends Component {
             listShoe={this.state.shoeArr}
           />
         </div>
-        <button onClick={this.handleShowModal}>Toggle</button>
         <Modal
           productDetail={this.state.detail}
           handleCloseModal={this.handleCloseModal}

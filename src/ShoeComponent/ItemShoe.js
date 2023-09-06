@@ -4,7 +4,7 @@ export default class ItemShoe extends Component {
   render() {
     let { image, name, price } = this.props.item;
     return (
-      <div className="flex flex-col items-center justify-between p-4 border rounded-xl">
+      <div className="flex flex-col items-center justify-between p-4 border rounded-xl hover:shadow-md duration-300">
         <img src={image} alt="" />
         <p className="font-semibold text-center ">{name}</p>
         <span className="inline-block px-3 mb-3 bg-yellow-300 rounded-lg ">
